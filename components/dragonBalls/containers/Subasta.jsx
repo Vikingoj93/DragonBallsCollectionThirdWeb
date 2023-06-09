@@ -1,5 +1,5 @@
 import React from 'react';
-import Esferas from '../components/Esferas'
+import Esferas from '../components/subasta/Esferas'
 
 const Subasta = () => {
 

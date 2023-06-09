@@ -64,10 +64,10 @@ const Header = () => {
           <div className='m-2'>
 
           < ConnectWallet 
-          btnTitle='Login'
-            theme='light'
-            className={`${!isMobileOrTablet() ? ' hover:scale-100 hover:border hover:bg-white hover:text-navy' : ''
-          }`}
+          btnTitle=''
+            className={`!bg-orange !text-white !font-bold !m-2 !py-2 !px-2 !rounded !transition-all !duration-300 !focus:outline-none ${
+              !isMobileOrTablet() ? ' hover:scale-110 hover:text-navy' : ''
+            }`}
           />
           </div>
          ) : (
