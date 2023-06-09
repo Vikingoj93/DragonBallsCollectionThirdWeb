@@ -83,7 +83,7 @@ const Header = () => {
           {
             isProfileOpen && (
               <div className='absolute top-16 right-5 w-48 bg-orange border border-white p-3 '>
-                <Link href={"perfil"}>
+                <Link href={"Perfil"}>
                   <p>Perfil</p>
                 </Link>
               <button onClick={disconnectedWallet}>
