@@ -44,7 +44,7 @@ const WhitePaperSection = () => {
       </div>
     ))}
         <div className="flex justify-center flex-col">
-          <p className="text-lg text-center mb-8 text-white">Quieres saber mas acerca de nuestro proyecto de invito a leer nuestro white paper </p>
+          <p className="text-lg text-center mb-8 text-white">Quieres saber mas acerca de nuestro proyecto de invitamos a leer nuestro white paper </p>
           <Link href="/files/Dragon-Ball-Collection.pdf" passHref target="_blank" rel="noopener noreferrer" className="text-lg text-center mb-8 text-white font-bold hover:bg-blue-700 hover:scale-110 hover:bg-opacity-50">
             Ver White Paper
           </Link>

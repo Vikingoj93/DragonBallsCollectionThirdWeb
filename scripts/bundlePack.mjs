@@ -1,8 +1,9 @@
 import { ThirdwebSDK } from "@thirdweb-dev/sdk";
-
+import dotenv from "dotenv";
+dotenv.config();
 
 (async () => {
-    const sdk = ThirdwebSDK.fromPrivateKey("bbcbf436c0d2348d75065b6958d1a8c5eab503b0abc37ab84092b54374c48fa9", "binance-testnet");
+    const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY, "binance-testnet");
 
     const packsAddress = "0xEfA925b3013871e755Ea74BAc3ED9d288410a8cB";
     const cardAddress = "0xa6BC00d400Ecf412476B2B4B5ccECC8Defa11Ee6";

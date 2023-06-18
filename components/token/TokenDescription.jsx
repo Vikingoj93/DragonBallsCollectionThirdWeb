@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 
 const TokenDescription = () => {
 
@@ -31,21 +30,18 @@ const TokenDescription = () => {
       `,
     }
   ]
+
   return (
     <section className="py-10">
-  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-    {whitePaperData.map((containerIndex, index) => (
-      <div key={index}>
-        <h2 className="text-3xl font-bold text-center mb-4 text-white">{containerIndex.title}</h2>
-        <p className="text-lg text-center mb-8 text-white">{containerIndex.description}</p>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {whitePaperData.map((containerIndex, index) => (
+          <div key={index}>
+            <h2 className="text-3xl font-bold text-center mb-4 text-white">{containerIndex.title}</h2>
+            <p className="text-lg text-center mb-8 text-white">{containerIndex.description}</p>
+          </div>
+        ))}
+            
       </div>
-    ))}
-        <div className="flex justify-center flex-col">
-          <button  className="text-lg text-center mb-8 text-white font-bold hover:bg-blue-700 hover:scale-110 hover:bg-opacity-50">
-            Comprar Token
-          </button>
-        </div>
-  </div>
 </section>
 
   );
