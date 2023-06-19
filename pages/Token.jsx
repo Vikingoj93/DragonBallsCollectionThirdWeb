@@ -30,7 +30,7 @@ const Token = () => {
 
   return (
     <div className="flex">
-      <section className="h-screen w-1/6 border-x p-4 bg-orange text-white sticky top-0 z-50 border-white border-b">
+      <section className="h-screen w-1/6 border-x p-4 bg-orange text-white sticky top-0 border-white border-b">
         {Object.entries(buttons).map(([key, label]) => (
           <button
             className="block hover:text-navy mb-2"
