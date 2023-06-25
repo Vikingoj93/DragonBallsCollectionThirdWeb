@@ -73,16 +73,13 @@ const Header = () => {
          ) : (
           <div onClick={()=>setIsProfileOpen(!isProfileOpen)}
           className=' w-16 rounded-full '>
-            <img className=' w-max m-3 rounded-full' 
-              src="https://api.dicebear.com/6.x/adventurer-neutral/svg"
-              alt="avatar"
-            />
+            <p>Cuenta</p>
           </div>
          )
           }
           {
             isProfileOpen && (
-              <div className='absolute top-16 right-5 w-48 bg-orange border border-white p-3 '>
+              <div className='absolute top-12 right-0 w-48 bg-orange border border-white p-3 '>
                 <Link href={"Perfil"}>
                   <p>Perfil</p>
                 </Link>
