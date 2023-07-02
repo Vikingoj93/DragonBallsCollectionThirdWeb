@@ -6,17 +6,17 @@ const TokenSystemSection = () => {
     {
       title: 'Token',
       subtitle: 'Descripcion',
-      content: 'Dragon Ball Collection implementará un límite de suministro para el token, lo que significa que una vez que se agoten en la plataforma, no se crearán más tokens. Esto ayudará a mantener la escasez y el valor del token a largo plazo.'
+      content: 'Dragon Ball Collection implementa un límite de suministro máximo de tokens por temporadas. Al llegar a dicho límite, se cerrará la venta hasta la próxima temporada. El suministro máximo de tokens será determinado en función de la oferta y la demanda de los usuarios.'
     },
     {
       title: 'Exclusividad',
       subtitle: 'Suministro',
-      content: 'Este enfoque limitado de suministro y la exclusividad de obtener tokens solo a través  de la plataforma nos asegura tener un token estable añade un elemento adicional de valor y escasez. Los usuarios podrán participar activamente en la economía al adquirir tokens y utilizarlos para diversas actividades en la plataforma.'
+      content: 'La plataforma podrá obtener nuevos tokens a través de la venta de las Esferas del Dragón. Los usuarios podrán adquirir las Esferas del Dragón utilizando el token de la plataforma. Los tokens recolectados se volverán a poner a la venta en la siguiente temporada, lo que garantiza un flujo constante de tokens en la economía de Dragon Ball Collection.'
     },
     {
       title: 'Quema | Aumento valor',
       subtitle: '',
-      content: ' Cada transacción de compra quemara un porcentaje del suministro total. cada transacción de compra aumenta un porcentaje establecido del precio inicial.'
+      content: ' Este enfoque limitado de suministro y la exclusividad de obtener tokens solo a través  de la plataforma nos asegura tener un token estable añade un elemento adicional de valor y escasez. Los usuarios podrán participar activamente en la economía al adquirir tokens y utilizarlos para diversas actividades en la plataforma.'
     },
   ];
 

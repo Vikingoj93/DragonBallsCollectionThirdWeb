@@ -1,23 +1,22 @@
 import React from "react";
 
 const TokenDescription = () => {
-  const whitePaperData = [
+  const tokenData = [
     {
-      title: "Token",
-      description: `Dragon Ball Collection implementará un límite de suministro para el token, lo que significa que una vez que se agoten en la plataforma, no se crearán más tokens. Esto ayudará a mantener la escasez y el valor del token a largo plazo.
-      `,
+      title: "Tokenomics",
+      description: `DBC opera en una red descentralizada y utiliza un modelo de tokens. El suministro total de tokens DBC estará limitado, lo que garantiza la escasez y aumenta su valor potencial con el tiempo.`,
     },
     {
       title: "",
-      description: `Además, la plataforma será la única entidad que podrá obtener nuevos tokens a través de la venta de las Esferas del Dragón. Los usuarios podrán adquirir las Esferas del Dragón utilizando el token de la plataforma, y los tokens recolectados de esas ventas se pondrán nuevamente a la venta en la plataforma. Esto permitirá mantener un flujo constante de tokens en la economía de Dragon Ball Collection.`,
+      description: `La plataforma podrá obtener nuevos tokens a través de la venta de las Esferas del Dragón. Los usuarios podrán adquirir las Esferas del Dragón utilizando el token de la plataforma. Los tokens recolectados se volverán a poner a la venta en la siguiente temporada, lo que garantiza un flujo constante de tokens en la economía de Dragon Ball Collection.`,
     },
     {
       title: "",
-      description: `Cuando los tokens se agoten, la plataforma no generará más tokens, el sistema se encargará de  vender los tokens recolectados en las subastas de las Esferas del Dragón, brindando así la oportunidad a nuevos usuarios de unirse y adquirir el token para su participación en la comunidad.`,
+      description: `Este enfoque limitado de suministro y la exclusividad de obtener tokens solo a través  de la plataforma nos asegura tener un token estable añade un elemento adicional de valor y escasez. Los usuarios podrán participar activamente en la economía al adquirir tokens y utilizarlos para diversas actividades en la plataforma.`,
     },
     {
       title: "",
-      description: `Se determinará un límite máximo por transacción para evitar el abuso de ballenas que perjudiquen la comunidad y el proyecto. el cual será determinado por la demanda de compra de los usuarios, esto brindara la protección con el abuso de ballenas y dará oportunidad a más usuarios a participar en el proyecto
+      description: `Los poseedores de DBC tendrán el poder de influir en las decisiones del proyecto a través de la gobernanza descentralizada. Al apostar y mantener tokens DBC, los miembros de la comunidad podrán participar en procesos de votación, sugerir nuevas iniciativas y dar forma a la dirección del proyecto. Esto garantiza un proyecto verdaderamente democrático e inclusivo impulsado por la comunidad.
       `,
     },
   ];
@@ -25,7 +24,7 @@ const TokenDescription = () => {
   return (
     <section className="py-10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {whitePaperData.map((containerIndex, index) => (
+        {tokenData.map((containerIndex, index) => (
           <div key={index}>
             <h2 className="text-3xl font-bold text-center mb-4 text-white">
               {containerIndex.title}
